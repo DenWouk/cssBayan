@@ -47,7 +47,7 @@ body {
 
 .img {
   justify-content: center;
-  width: 50%;
+  width: 35%;
   max-height: 0;
   opacity: 0;
   transition: opacity 0.3s cubic-bezier(0, 1, 0, 1);
@@ -223,6 +223,10 @@ input#radio5:checked
   .img-container:hover {
     border: solid #9ae4f3;
     cursor: pointer;
+  }
+
+  .img-container:hover .caption {
+    color: #9ae4f3;
   }
 
   #img-container1:hover .img1,
